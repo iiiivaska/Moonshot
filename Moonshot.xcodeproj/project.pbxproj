@@ -17,6 +17,7 @@
 		A823FE73272BCA270030E75D /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A823FE72272BCA270030E75D /* Bundle-Decodable.swift */; };
 		A823FE75272BCC990030E75D /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = A823FE74272BCC990030E75D /* Mission.swift */; };
 		A823FE77272C23730030E75D /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A823FE76272C23730030E75D /* MissionView.swift */; };
+		A823FE79272C32BD0030E75D /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A823FE78272C32BC0030E75D /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		A823FE72272BCA270030E75D /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		A823FE74272BCC990030E75D /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		A823FE76272C23730030E75D /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		A823FE78272C32BC0030E75D /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		A80557CE272AFDA6004C742B /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
+				A823FE78272C32BC0030E75D /* AstronautView.swift */,
 				A823FE76272C23730030E75D /* MissionView.swift */,
 				A80557CF272AFDA6004C742B /* MoonshotApp.swift */,
 				A80557D1272AFDA6004C742B /* ContentView.swift */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A823FE79272C32BD0030E75D /* AstronautView.swift in Sources */,
 				A823FE71272BC9860030E75D /* Astronaut.swift in Sources */,
 				A80557D2272AFDA6004C742B /* ContentView.swift in Sources */,
 				A80557D0272AFDA6004C742B /* MoonshotApp.swift in Sources */,
