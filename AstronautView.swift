@@ -13,10 +13,11 @@ struct AstronautView: View {
         GeometryReader { geometry in
             ScrollView(.vertical) {
                 VStack {
+                    Spacer(minLength: 10)
                     Image(self.astronaut.id)
                         .resizable()
                         .scaledToFit()
-                        .frame(width: geometry.size.width)
+                        .frame(width: geometry.size.width * 0.95)
                     
                     Text(self.astronaut.description)
                         .padding()
